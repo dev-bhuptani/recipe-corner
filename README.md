@@ -5,3 +5,6 @@ An online platform where users can browse recipes, and/or sign-up and register t
 **Technologies used:** <br>
 Front-end: HTML, CSS, Bootstrap, JavaScript <br>
 Back-end: PHP, MySQL
+
+**Developers:** <br>
+Devansh Bhuptani and Zeel Kakadia
