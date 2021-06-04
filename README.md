@@ -1,8 +1,7 @@
 # Recipe-Corner
-# GTU BE
-# Semester 6th
-# Subject: Web Programming
 
-# Developers:
-# Devansh Bhuptani   180570107010
-# Zeel Kakadia       180570107050
+An online platform where users can browse recipes, and/or sign-up and register to create recipes and share them.
+
+**Technologies used:**
+Front-end: HTML, CSS, Bootstrap, JavaScript
+Back-end: PHP, MySQL
