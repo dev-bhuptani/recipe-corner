@@ -1,0 +1,224 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Heading start */
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-top: 2%;
+  
+}
+
+.veg-logo img{
+  height: 0.9em;
+}
+
+.author-date{
+  font-size: 1.2rem;
+  color: grey;
+  font-style: italic;
+}
+
+.rating{
+  font-size:18px;
+  font-style: italic;
+}
+.fa{
+  color: gold;
+  font-style: normal;
+}
+
+/* Heading ends */
+
+
+/* Image Section Starts */
+.container {
+  margin-top: 20px;
+}
+
+.row{
+  margin-top: 20px;
+}
+
+.recipe-img img {
+ 
+  height: auto;
+  width: 100%;
+}
+
+.prep-info {
+
+  /* background-color: grey; */
+  font-size: 25px;
+  color: black;
+  height: 60%;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.prep-icon {
+  color:crimson;
+  margin-bottom: 30px;
+}
+
+.fa-btn {
+  color: rgb(240, 240, 220);
+}
+.share-btn, .bookmark-btn {
+  padding: 2px;
+  background-color: rgb(221, 30, 68);
+  border-radius: 10px;
+  width: 60%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: aliceblue;
+
+}
+
+
+
+/* Image Section Ends */
+
+
+/* content */
+
+.about{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+/* ingredients */
+
+.ingredient-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background-color: rgb(100, 237, 100);
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+.ingredient-list{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ingredient-list-title{
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: rgb(197, 29, 71);
+}
+
+/* Ingredient list ends */
+
+/* Steps */
+.step-container{
+  margin-top: 40px;
+}
+.step-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background-color: rgb(237, 100, 146);
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.step-title{
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: gray;
+
+}
+
+.step-info{
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.step-img img{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+/* Steps Ends */
+
+/* Tips */
+
+.tips{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background-color: rgb(100, 109, 237);
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.tips-block{
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+
+
+/* Media queries start*/
+@media screen and (max-width: 550px) {
+  
+  .recipe-img img {
+   
+    height: 300px;
+    width: 300px;
+  }
+  
+  .prep-info {
+    font-size: 15px;
+    color: black;
+    margin: 0px;
+    width: auto;
+  }
+  
+  
+  .share-btn, .bookmark-btn {
+    font-size: 16px;
+    background-color: rgb(221, 30, 68);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: auto;
+    width: 200px;
+    color: aliceblue;
+  }
+  
+  .step-img img{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  }

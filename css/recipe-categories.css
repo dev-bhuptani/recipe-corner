@@ -1,0 +1,210 @@
+/* Google fonts start */
+/* font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* font-family: 'Overpass', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;0,800;0,900;1,400;1,800;1,900&display=swap");
+
+/* font-fammily: "Poppins", sans-serif */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap");
+/* Google fonts end */
+
+/* Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar start */
+nav {
+  background-color: white;
+}
+
+.navbar img {
+  width: 270px;
+  height: 70px;
+  margin: 0 50px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  margin: 0 20px;
+  font-size: 1.4em;
+}
+
+.navbar-nav li a {
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 3px solid crimson;
+  transition: 0.5s;
+}
+/* Navbar end */
+
+/* Page header start */
+.page-header {
+  position: relative;
+  z-index: 10;
+  background-image: url("../images/breadcumb.jpg");
+  height: 200px;
+  border-left: 12px solid tomato; /*#00aeef => Color of favicon*/
+  width: 92%;
+}
+
+.bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-overlay {
+  position: relative;
+  z-index: 2;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-overlay::after {
+  background-color: rgba(10, 12, 18, 0.6);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
+.btn-search {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: tomato;
+  color: white;
+  font-size: 1rem;
+}
+/* Page header end */
+
+/* Main content of the page (categories) start */
+.category .category-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    text-decoration: 5px underline tomato;
+}
+
+.sub-category img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.sub-category img:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  transform: scale(1.05);
+}
+
+.sub-category h3 {
+  font-size: 1.15rem;
+}
+
+.more-recipes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.more-recipes .more-recipes-icon {
+  font-size: 3rem;
+}
+
+.more-recipes-link:hover {
+  color: tomato;
+}
+/* Main content of the page (categories) end */
+
+/* Footer start */
+.footer-basic {
+  padding: 40px 0;
+  color: white;
+  background-color: #3c3d41;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+/* Footer end */
+
+
+/* Media Queries */
+@media screen and (max-width: 550px) {
+  .navbar img {
+    width: 200px;
+    height: 70px;
+    margin: 0 5px;
+  }
+  }

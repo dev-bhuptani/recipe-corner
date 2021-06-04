@@ -1,0 +1,222 @@
+/* Google fonts start */
+  /* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  /* font-family: 'Courgette', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* Google fonts end */
+
+/* Styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("./images/login-background-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar start */
+nav {
+  background-color: white;
+}
+
+.navbar img {
+  width: 270px;
+  height: 60px;
+  margin: 0 50px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  margin: 0 20px;
+  font-size: 1.3rem;
+}
+
+.navbar-nav li a {
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 3px solid crimson;
+  /* color: aliceblue !important; */
+  transition: 0.5s;
+}
+/* Navbar end */
+
+/* Introduction start */
+.left h2 {
+  color: crimson;
+  font-size: 52px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.left p {
+  font-size: 24px;
+  font-family: 'Courgette', cursive;
+  font-weight: 400;
+}
+
+.get-started {
+  font-size: 18px;
+  background-color: greenyellow;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.get-started:hover {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.right img {
+  margin-top: 20px; 
+}
+/* Introduction end */
+
+/* Home info section start */
+.home-info-section {
+  margin-top: 30px;
+}
+
+.home-info-section .card {
+  border-radius: 10px;
+}
+
+.home-info-section img {
+  height: 250px;
+  object-fit:cover;
+  transform: scale(1);
+  transition: transform 0.7s ease;
+}
+
+.home-info-section img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.home-info-section-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 34px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: cornflowerblue;
+}
+
+.home-info-section-inner-title {
+  font-family: "Poppins", 'Times New Roman', Times, serif;
+  font-size: 27px;
+  text-align: center;
+  padding: 10px;
+  color: purple;
+}
+
+.home-info-section-inner-text {
+  font-family: 'Montserrat', cursive;
+  padding: 10px;
+}
+/* Home info section end */
+
+/* Footer start */
+.footer-basic {
+  padding: 40px 0;
+  color: white;
+  background-color: #3c3d41;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  /*border-radius: 50%;*/
+  /*border: 1px solid #ccc;*/
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+/* Footer end */
+
+/* Media queries start*/
+@media (min-width: 768px) and (max-width: 992px) { /* These are the breakpoints as per Bootstrap */
+  /* To change the layout of cards of "home info section" when within this range */
+  .home-info-section {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* Home info section media query end */
+}
+
+@media screen and (max-width: 550px) {
+.navbar img {
+  width: 200px;
+  height: 70px;
+  margin: 0 5px;
+}
+}
+
+@media screen and (max-width: 300px) {
+ 
+  .navbar img {
+    content:  url(images/title.png) !important;
+    width: 170px;
+  
+  }
+ 
+}
+
+/* Media queries end */
